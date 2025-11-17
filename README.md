@@ -1,61 +1,93 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+    <a href="https://laravel.com" target="_blank">
+        <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
+    </a>
 </p>
 
-## About Laravel
+<p align="center">
+    <a href="https://github.com/laravel/framework/actions">
+        <img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status">
+    </a>
+    <a href="https://packagist.org/packages/laravel/framework">
+        <img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads">
+    </a>
+    <a href="https://packagist.org/packages/laravel/framework">
+        <img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version">
+    </a>
+    <a href="https://packagist.org/packages/laravel/framework">
+        <img src="https://img.shields.io/packagist/l/laravel/framework" alt="License">
+    </a>
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+# 📰 News Portal Website — Laravel + Filament + TailwindCSS
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Proyek ini adalah **website Portal Berita** dengan sistem **multi-user** (Admin & Author).  
+Dibangun menggunakan **Laravel** sebagai backend utama, **Filament** sebagai panel administrasi yang powerful dan fleksibel, serta **TailwindCSS** untuk tampilan modern, clean, dan responsif.
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## ✨ Fitur Utama
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- **Multiuser:** Role *Admin* & *Author*  
+- **Manajemen Berita:** CRUD lengkap (kategori, banner, status, penjadwalan publikasi)  
+- **Dashboard Interaktif:** Filament Widgets & Charts  
+- **Custom Login Filament** dengan UI modern  
+- **Frontend Landing Page** responsive berbasis TailwindCSS  
+- **Image Uploading** dengan preview & optimasi  
+- **SEO Friendly URL** (slug otomatis)  
+- **Mobile-Friendly Navigation** + dropdown menu animasi  
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## 🛠 Teknologi yang Digunakan
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+- **Laravel** – Backend Core  
+- **FilamentPHP** – Admin Panel  
+- **TailwindCSS** – Styling  
+- **MySQL** – Database  
+- **Blade Template** – Frontend Rendering  
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## 📌 Tujuan Proyek
+Membangun sistem **portal berita** yang modern, cepat, aman, dan mudah digunakan oleh berbagai role user, dengan tampilan UI yang bersih dan responsif.
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🧩 Tentang Laravel (Default)
 
-## Code of Conduct
+Laravel adalah framework web dengan sintaks yang expressive dan elegan.  
+Framework ini menyediakan fitur seperti:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- Routing yang cepat dan sederhana  
+- Container dependency injection  
+- Session & cache yang fleksibel  
+- ORM Eloquent yang powerful  
+- Schema migrations  
+- Queue & job processing  
+- Broadcast events real-time  
 
-## Security Vulnerabilities
+Dokumentasi lengkap Laravel dapat ditemukan di: https://laravel.com/docs
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
 
-## License
+## 🤝 Kontribusi
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Terima kasih telah mempertimbangkan kontribusi pada proyek ini.  
+Panduan kontribusi Laravel dapat dilihat di:  
+https://laravel.com/docs/contributions
+
+---
+
+## 🔒 Keamanan
+
+Jika menemukan celah keamanan pada Laravel, hubungi:  
+**taylor@laravel.com**
+
+---
+
+## 📄 Lisensi
+
+Laravel adalah software open-source yang dirilis di bawah lisensi **MIT**.  
